@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.block {
+   height: 100%;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.purple {
+    background: purple;
+}
+
+.orange {
+    background: orange;
+}
+.col-12, .col-9, .col-6, .col-3 {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+.col-12 > * {
+    width: calc(100%/12);
+    float: left;
+}
+
+.col-9 > * {
+    width: calc(100%/9);
+    float: left;
+}
+
+.col-6 > * {
+    width: calc(100%/6);
+    float: left;
+}
+
+.col-3 > * {
+    width: calc(100%/3);
+    float: left;
+}

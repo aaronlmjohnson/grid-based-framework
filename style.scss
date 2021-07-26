@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .block {
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+  }
+  
+  
+  .blue {
+      background: blue;
+  }
+  
+  .red {
+    background: red;
+  }
+  
+  .green {
+    background: green;
+  }
+  
+  .yellow {
+    background: yellow;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
+  .orange {
+    background: orange;
+  }
+
+  .row {
+    display:inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+
+  }
+
+  @mixin column($span-name, $span, $flex-size){
+    .col-#{$flex-size}-#{$span-name} {
+        width: $span;
+        float: left;
+        margin: 0 15px;
+        border: 1px solid black;
+    }
+
+    @if $flex-size == xs {
+      @media screen and (max-width: 768px) {
+        .col-#{$flex-size}-#{$span-name} {
+          width: 100%;
+        }
+      }
+      
+    }
+
+    
+  }
+
+@for $i from 1 through 12 {
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "xs");
+}
+
+
+
+
+

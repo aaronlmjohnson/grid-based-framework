@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.block {
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  display: inline-block;
+}
+
+.blue {
+  background: blue;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.purple {
+  background: purple;
+}
+
+.orange {
+  background: orange;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.col-xs-1 {
+  width: calc((((100%)/12) * 1) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-1 {
+    width: 100%;
+  }
+}
+.col-xs-2 {
+  width: calc((((100%)/12) * 2) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-2 {
+    width: 100%;
+  }
+}
+.col-xs-3 {
+  width: calc((((100%)/12) * 3) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-3 {
+    width: 100%;
+  }
+}
+.col-xs-4 {
+  width: calc((((100%)/12) * 4) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-4 {
+    width: 100%;
+  }
+}
+.col-xs-5 {
+  width: calc((((100%)/12) * 5) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-5 {
+    width: 100%;
+  }
+}
+.col-xs-6 {
+  width: calc((((100%)/12) * 6) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-6 {
+    width: 100%;
+  }
+}
+.col-xs-7 {
+  width: calc((((100%)/12) * 7) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-7 {
+    width: 100%;
+  }
+}
+.col-xs-8 {
+  width: calc((((100%)/12) * 8) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-8 {
+    width: 100%;
+  }
+}
+.col-xs-9 {
+  width: calc((((100%)/12) * 9) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-9 {
+    width: 100%;
+  }
+}
+.col-xs-10 {
+  width: calc((((100%)/12) * 10) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-10 {
+    width: 100%;
+  }
+}
+.col-xs-11 {
+  width: calc((((100%)/12) * 11) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-11 {
+    width: 100%;
+  }
+}
+.col-xs-12 {
+  width: calc((((100%)/12) * 12) - 30px);
+  float: left;
+  margin: 0 15px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

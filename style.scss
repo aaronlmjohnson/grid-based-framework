@@ -56,18 +56,45 @@
     @if $flex-size == xs {
       @media screen and (max-width: 768px) {
         .col-#{$flex-size}-#{$span-name} {
-          width: 100%;
+          width: calc(100% - 30px);
         }
-      }
-      
+      }   
+    } @else if $flex-size == sm {
+        @media screen and (max-width: 991px) {
+          .col-#{$flex-size}-#{$span-name} {
+            width: calc(100% - 30px);
+          }
+        } 
+
+    } @else if $flex-size == md {
+        @media screen and (max-width: 1199px) {
+          .col-#{$flex-size}-#{$span-name} {
+            width: calc(100% - 30px);
+            
+          }
+        } 
+
+    } @else if $flex-size == lg {
+        @media screen and (min-width: 1200px) {
+          .col-#{$flex-size}-#{$span-name} {
+            width: $span;
+          }
+        } 
     }
+
+
 
     
   }
 
 @for $i from 1 through 12 {
     @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "xs");
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "sm");
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "md");
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "lg");
 }
+
+
 
 
 

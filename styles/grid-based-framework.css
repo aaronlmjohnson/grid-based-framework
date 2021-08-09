@@ -60,13 +60,25 @@ table {
 .row {
   display: inline-block;
   width: 100%;
-  margin-bottom: 15px;
+}
+
+.block {
+  width: 500px;
+  height: 50vh;
+  background: green;
+  border: 1px solid black;
+  margin: 0 auto;
 }
 
 .col-xs-1 {
   width: calc((((100%)/12) * 1) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-1-centered {
+  width: calc((((100%)/12) * 1) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +92,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-1-centered {
+  width: calc((((100%)/12) * 1) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-1 {
     width: calc(100% - 30px);
@@ -89,6 +106,11 @@ table {
   width: calc((((100%)/12) * 1) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-1-centered {
+  width: calc((((100%)/12) * 1) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -102,6 +124,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-1-centered {
+  width: calc((((100%)/12) * 1) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-1 {
     width: calc((((100%)/12) * 1) - 30px);
@@ -111,6 +138,11 @@ table {
   width: calc((((100%)/12) * 2) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-2-centered {
+  width: calc((((100%)/12) * 2) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -124,6 +156,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-2-centered {
+  width: calc((((100%)/12) * 2) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-2 {
     width: calc(100% - 30px);
@@ -133,6 +170,11 @@ table {
   width: calc((((100%)/12) * 2) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-2-centered {
+  width: calc((((100%)/12) * 2) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -146,6 +188,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-2-centered {
+  width: calc((((100%)/12) * 2) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-2 {
     width: calc((((100%)/12) * 2) - 30px);
@@ -155,6 +202,11 @@ table {
   width: calc((((100%)/12) * 3) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-3-centered {
+  width: calc((((100%)/12) * 3) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -168,6 +220,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-3-centered {
+  width: calc((((100%)/12) * 3) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-3 {
     width: calc(100% - 30px);
@@ -177,6 +234,11 @@ table {
   width: calc((((100%)/12) * 3) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-3-centered {
+  width: calc((((100%)/12) * 3) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -190,6 +252,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-3-centered {
+  width: calc((((100%)/12) * 3) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-3 {
     width: calc((((100%)/12) * 3) - 30px);
@@ -199,6 +266,11 @@ table {
   width: calc((((100%)/12) * 4) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-4-centered {
+  width: calc((((100%)/12) * 4) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -212,6 +284,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-4-centered {
+  width: calc((((100%)/12) * 4) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-4 {
     width: calc(100% - 30px);
@@ -221,6 +298,11 @@ table {
   width: calc((((100%)/12) * 4) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-4-centered {
+  width: calc((((100%)/12) * 4) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -234,6 +316,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-4-centered {
+  width: calc((((100%)/12) * 4) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-4 {
     width: calc((((100%)/12) * 4) - 30px);
@@ -243,6 +330,11 @@ table {
   width: calc((((100%)/12) * 5) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-5-centered {
+  width: calc((((100%)/12) * 5) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -256,6 +348,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-5-centered {
+  width: calc((((100%)/12) * 5) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-5 {
     width: calc(100% - 30px);
@@ -265,6 +362,11 @@ table {
   width: calc((((100%)/12) * 5) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-5-centered {
+  width: calc((((100%)/12) * 5) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -278,6 +380,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-5-centered {
+  width: calc((((100%)/12) * 5) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-5 {
     width: calc((((100%)/12) * 5) - 30px);
@@ -287,6 +394,11 @@ table {
   width: calc((((100%)/12) * 6) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-6-centered {
+  width: calc((((100%)/12) * 6) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -300,6 +412,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-6-centered {
+  width: calc((((100%)/12) * 6) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-6 {
     width: calc(100% - 30px);
@@ -309,6 +426,11 @@ table {
   width: calc((((100%)/12) * 6) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-6-centered {
+  width: calc((((100%)/12) * 6) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -322,6 +444,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-6-centered {
+  width: calc((((100%)/12) * 6) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-6 {
     width: calc((((100%)/12) * 6) - 30px);
@@ -331,6 +458,11 @@ table {
   width: calc((((100%)/12) * 7) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-7-centered {
+  width: calc((((100%)/12) * 7) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -344,6 +476,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-7-centered {
+  width: calc((((100%)/12) * 7) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-7 {
     width: calc(100% - 30px);
@@ -353,6 +490,11 @@ table {
   width: calc((((100%)/12) * 7) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-7-centered {
+  width: calc((((100%)/12) * 7) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -366,6 +508,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-7-centered {
+  width: calc((((100%)/12) * 7) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-7 {
     width: calc((((100%)/12) * 7) - 30px);
@@ -375,6 +522,11 @@ table {
   width: calc((((100%)/12) * 8) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-8-centered {
+  width: calc((((100%)/12) * 8) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -388,6 +540,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-8-centered {
+  width: calc((((100%)/12) * 8) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-8 {
     width: calc(100% - 30px);
@@ -397,6 +554,11 @@ table {
   width: calc((((100%)/12) * 8) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-8-centered {
+  width: calc((((100%)/12) * 8) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -410,6 +572,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-8-centered {
+  width: calc((((100%)/12) * 8) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-8 {
     width: calc((((100%)/12) * 8) - 30px);
@@ -419,6 +586,11 @@ table {
   width: calc((((100%)/12) * 9) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-9-centered {
+  width: calc((((100%)/12) * 9) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -432,6 +604,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-9-centered {
+  width: calc((((100%)/12) * 9) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-9 {
     width: calc(100% - 30px);
@@ -441,6 +618,11 @@ table {
   width: calc((((100%)/12) * 9) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-9-centered {
+  width: calc((((100%)/12) * 9) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -454,6 +636,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-9-centered {
+  width: calc((((100%)/12) * 9) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-9 {
     width: calc((((100%)/12) * 9) - 30px);
@@ -463,6 +650,11 @@ table {
   width: calc((((100%)/12) * 10) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-10-centered {
+  width: calc((((100%)/12) * 10) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -476,6 +668,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-10-centered {
+  width: calc((((100%)/12) * 10) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-10 {
     width: calc(100% - 30px);
@@ -485,6 +682,11 @@ table {
   width: calc((((100%)/12) * 10) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-10-centered {
+  width: calc((((100%)/12) * 10) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -498,6 +700,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-10-centered {
+  width: calc((((100%)/12) * 10) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-10 {
     width: calc((((100%)/12) * 10) - 30px);
@@ -507,6 +714,11 @@ table {
   width: calc((((100%)/12) * 11) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-11-centered {
+  width: calc((((100%)/12) * 11) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -520,6 +732,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-11-centered {
+  width: calc((((100%)/12) * 11) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-11 {
     width: calc(100% - 30px);
@@ -529,6 +746,11 @@ table {
   width: calc((((100%)/12) * 11) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-11-centered {
+  width: calc((((100%)/12) * 11) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -542,6 +764,11 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-11-centered {
+  width: calc((((100%)/12) * 11) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-11 {
     width: calc((((100%)/12) * 11) - 30px);
@@ -551,6 +778,11 @@ table {
   width: calc((((100%)/12) * 12) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-xs-12-centered {
+  width: calc((((100%)/12) * 12) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -564,6 +796,11 @@ table {
   margin: 0 15px;
 }
 
+.col-sm-12-centered {
+  width: calc((((100%)/12) * 12) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .col-sm-12 {
     width: calc(100% - 30px);
@@ -573,6 +810,11 @@ table {
   width: calc((((100%)/12) * 12) - 30px);
   float: left;
   margin: 0 15px;
+}
+
+.col-md-12-centered {
+  width: calc((((100%)/12) * 12) - 30px);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1199px) {
@@ -586,10 +828,15 @@ table {
   margin: 0 15px;
 }
 
+.col-lg-12-centered {
+  width: calc((((100%)/12) * 12) - 30px);
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .col-lg-12 {
     width: calc((((100%)/12) * 12) - 30px);
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=grid-based-framework.css.map */

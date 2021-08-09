@@ -57,15 +57,31 @@ table {
   .row {
     display:inline-block;
     width: 100%;
-    margin-bottom: 15px;
-
   }
 
-  @mixin column($span-name, $span, $flex-size){
+  .block {
+    width: 500px;
+    height: 50vh;
+    background: green;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+
+  @mixin column($span-name, $span, $flex-size, $center){
     .col-#{$flex-size}-#{$span-name} {
         width: $span;
         float: left;
         margin: 0 15px;
+        
+    }
+
+    @if $center == true {
+      .col-#{$flex-size}-#{$span-name}-centered {
+        width: $span;
+        margin: 0 auto;
+        
+      }
     }
 
     @if $flex-size == xs {
@@ -96,14 +112,16 @@ table {
           }
         } 
     }
+
+   
     
   }
 
 @for $i from 1 through 12 {
-    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "xs");
-    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "sm");
-    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "md");
-    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "lg");
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "xs", true);
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "sm", true);
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "md", true);
+    @include column(#{$i}, calc((((100%)/12) * #{$i}) - 30px), "lg", true);
 }
 
 
